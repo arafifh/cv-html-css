@@ -1,71 +1,128 @@
 .container{
-	background-color:#F6F6F6;
-	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 900px;
 }
-.header {
-            background-color: #F6F6F6;
-            min-height: 200px;   
-            
-        }
-.foto{
-	background-color: #F6F6F6;
-	height: 200px;
-	width: 200px;
-	float: left;
-}
-.singkat p{
-	line-height: 17px;
-	
-}
-.nav img{
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
-	margin : 20px 20px 20px 20px;
-	
-} 
-.singkat{
-	width: 600px;
-	height: 200px;
-	background-color: #F6F6F6;
-	float :right;
+.top{
+	background-color:#E6E7E8;
+	min-height: 250px;
 	overflow: hidden;
+	}
+	.side{
+		background-color: #E6E7E8;
+		width: 250px;
+		float: left;
+		min-height: 250px;
+		max-height: 250px;
+	}
+	.side img{
+		width:  160px;
+		height: 160px;
+		border-radius: 50%;
+		padding: 45px 45px 45px 45px;
+	}
+	.deskripsi{
+		background-color: #E6E7E8;
+		width: 650px;
+		float: right;
+		min-height: 250px;
+		max-height: 250px;
+	}
+	.deskripsi h1{
+		padding-top: 35px;
+		padding-left: 5px;
+		font-family: ubuntu,sans-serif;
+		font-size: 26px;
+		font-style:normal; 
+		font-variant: normal;
+		font-weight: 400; 
+		line-height: 12px;
+	}
+	.deskripsi h3{
+		padding-left: 5px;
+		font-family: ubuntu,sans-serif;
+		font-size: 16px;
+		color: steelblue;
+		font-style: normal;
+		line-height: 2px;
+		font-weight: 500;
+	}
+	.deskripsi p{
+		padding-top: 5px;
+		padding-left: 5px;
+		font-family: ubuntu,sans-serif;
+		font-size: 14px;
+		line-height: 18px;
+	}
 
+.middle{
+	background-color:blue;
+	min-height: 40px;
+	max-height: 40px;
+	overflow: hidden;;
 }
-.singkat1{
-	background-color:green; 
-	height:100px;
-
-}
-.sosial{
-	background-color: white;
-	min-height: 30px;
-	vertical-align: middle;
-	text-align: center;
-	line-height: 30px;
-
-}
-
-
-        .contentdummy {
-            background-color: #F6F6F6;
-            min-height: 500px;
-            padding-top: 10px;
-        }
-        .footer {
-            background-color: #ccc;
-            min-height: 50px;
-        }
-.content{
-	padding: 10px;
-}
-.nav {
-	width: 200px;
+.kolom1{
+	background-color: orange;
+	width: 300px;
 	float: left;
-}
-.main{
-	width: 800px;
+	min-height: 40px;
+	max-height: 40px;
+	overflow: hidden;
+	}
+	.sub1kolom1{
+		background-color: pink;
+		width: 80px;
+		min-height: 40px;
+		max-height: 40px;
+		float: left;
+		}
+		.sub1kolom1 img{
+			width: 35px;
+		}
+	.sub2kolom1{
+		background-color: purple;
+		min-height: 40px;
+		width: 220px;
+		float: right;
+	}
+
+.kolom2{
+	background-color: green;
+	width: 300px;
+	float: left;
+	min-height: 40px;
+	max-height: 40px;
+	}
+	.sub1kolom2{
+		background-color: pink;
+		width: 80px;
+		min-height: 40px;
+		max-height: 40px;
+		float: left;
+		}
+	.sub2kolom2{
+		background-color: green;
+		min-height: 40px;
+		width: 220px;
+		float: right;
+	}
+.kolom3{
+	background-color: red;
+	width: 300px;
 	float: right;
-}
+	min-height: 40px;
+	max-height: 40px;
+	}
+	.sub1kolom3{
+		background-color: pink;
+		width: 80px;
+		min-height: 40px;
+		max-height: 40px;
+		float: left;
+		}
+	.sub2kolom3{
+		background-color: red;
+		min-height: 40px;
+		width: 220px;
+		float: right;
+	}
