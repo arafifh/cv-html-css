@@ -5,8 +5,7 @@
 }
 .top{
 	background-color:#E6E7E8;
-	min-height: 250px;
-	max-height: 250px;
+	height: auto;
 	overflow: hidden;
 	}
 	.side{
@@ -26,8 +25,7 @@
 		background-color: #E6E7E8;
 		width: 650px;
 		float: right;
-		min-height: 250px;
-		max-height: 250px;
+		height: auto;
 	}
 	.deskripsi h1{
 		padding-top: 35px;
@@ -55,100 +53,3 @@
 		font-size: 14px;
 		line-height: 18px;
 	}
-
-.middle{
-	background-color:#479099;
-	min-height: 40px;
-	max-height: 40px;
-	overflow: hidden;;
-}
-.kolom1{
-	background-color: #479099;
-	width: 300px;
-	float: left;
-	min-height: 40px;
-	max-height: 40px;
-	overflow: hidden;
-	}
-	.sub1kolom1{
-		background-color: #479099;
-		width: 100px;
-		min-height: 40px;
-		max-height: 40px;
-		float: left;
-		}
-		.sub1kolom1 img{
-			width: 29px;
-			height: 20px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			padding-left:59px;
-		}
-	.sub2kolom1{
-		background-color: #479099;
-		min-height: 40px;
-		width: 200px;
-		float: right;
-		font-family: ubuntu,sans-serif;
-		line-height: 40px;
-	}
-
-.kolom2{
-	background-color: #479099;
-	width: 300px;
-	float: left;
-	min-height: 40px;
-	max-height: 40px;
-	}
-	.sub1kolom2{
-		background-color: #479099;
-		width: 60px;
-		min-height: 40px;
-		max-height: 40px;
-		float: left;
-		}
-		.sub1kolom2 img{
-			width: 16px;
-			height: 21px;
-			padding-top: 8px;
-			padding-bottom: 8px;
-			padding-left:22px;
-			}
-	.sub2kolom2{
-		background-color: #479099;
-		min-height: 40px;
-		width: 240px;
-		float: right;
-		font-family: ubuntu,sans-serif;
-		line-height: 40px;
-	}
-.kolom3{
-	background-color: #479099;
-	width: 300px;
-	float: right;
-	min-height: 40px;
-	max-height: 40px;
-	}
-	.sub1kolom3{
-		background-color: #479099;
-		width: 50px;
-		min-height: 40px;
-		max-height: 40px;
-		float: left;
-		}
-		.sub1kolom3 img{
-			width: 16px;
-			height: 16px;
-			padding-top: 12px;
-			padding-bottom: 12px;
-			padding-left:22px;
-			}
-	.sub2kolom3{
-		background-color: #479099;
-		min-height: 40px;
-		width: 250px;
-		float: right;
-		font-family: ubuntu,sans-serif;
-			line-height: 40px;
-	}
-	
